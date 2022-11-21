@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\front-end",
+    "\\front-end\\src"
   ],
-  "SelectedNode": "\\brownie-config.yaml",
+  "SelectedNode": "\\front-end\\src\\assets",
   "PreviewInSolutionExplorer": false
 }
