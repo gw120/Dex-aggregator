@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\front-end",
-    "\\front-end\\src"
+    "\\build\\interfaces",
+    "\\interfaces",
+    "\\interfaces\\kyber",
+    "\\scripts"
   ],
-  "SelectedNode": "\\front-end\\src\\assets",
+  "SelectedNode": "\\brownie-config.yaml",
   "PreviewInSolutionExplorer": false
 }
