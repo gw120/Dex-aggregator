@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\build\\interfaces",
     "\\interfaces",
-    "\\interfaces\\kyber",
     "\\scripts"
   ],
-  "SelectedNode": "\\brownie-config.yaml",
+  "SelectedNode": "\\.gitattributes",
   "PreviewInSolutionExplorer": false
 }
