@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\front-end",
+    "\\front-end\\public",
     "\\interfaces",
     "\\scripts"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\front-end\\public\\robots.txt",
   "PreviewInSolutionExplorer": false
 }
