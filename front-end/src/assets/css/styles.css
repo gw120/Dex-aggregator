@@ -53,10 +53,10 @@
     width: 30%;
 }
 
-.token_select:hover {
-    background-color: #464646;
-    cursor: pointer;
-}
+    .token_select:hover {
+        background-color: #464646;
+        cursor: pointer;
+    }
 
 .token_row {
     padding: 5px 10px;
@@ -98,10 +98,6 @@
 @media (max-width: 32em) {
     .header-container {
         flex-direction: column;
-        width: 100%;
-    }
-    
-     .header-box {
         width: 100%;
     }
 
