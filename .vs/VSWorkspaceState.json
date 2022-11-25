@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\front-end",
-    "\\front-end\\public",
     "\\interfaces",
     "\\scripts"
   ],
-  "SelectedNode": "\\front-end\\public\\robots.txt",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
