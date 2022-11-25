@@ -4,8 +4,12 @@
 <p align="center">
   <img alt="Dark" src="https://user-images.githubusercontent.com/83681204/164813894-c23e969f-0fc5-4beb-bcac-09ef92f364ce.png" width="100%">
 </p>
+
+
+
 With the ever growing DEFI world and the appearance of multiple decentralized exchanges on the different blockchains, the WEB3 ecosystem needs a way to compare the pros & cons of swapping on each DEX. This excatly what Paraswap & 1inch protocol are trying to do, they aggregate the prices of tokens from multiple exchanges in each Blockchain (for example: uniswap, sushiswap, shibaswap in the Ethereum Mainnet), then they compare those prices and the swapping fee and offer to their user the best exchange rate possible.
 In this Dapp, i built a simplified version of Paraswap it works on 4 blockchains: Ethereum, Polygon, Binance Smart Chain and the kovan testnet.For the moment it supports some well known tokens (ETH, Matic, Dai, USDC,...).
+
 ### Built With
 * [Solidity](https://docs.soliditylang.org/)
 * [Brownie](https://eth-brownie.readthedocs.io)
@@ -13,13 +17,16 @@ In this Dapp, i built a simplified version of Paraswap it works on 4 blockchains
 * [ethers.js](https://docs.ethers.io/v5/)
 * [web3modal](https://github.com/Web3Modal/web3modal)
 * [material ui](https://mui.com/getting-started/installation/)
+
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Prerequisites
+
 Please install or have installed the following:
 * [nodejs and npm](https://nodejs.org/en/download/) 
 * [python](https://www.python.org/downloads/)
 * [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) Chrome extension installed in your browser
+
 ### Installation
 1. Installing Brownie: Brownie is a python framework for smart contracts development,testing and deployments. It's quit like [HardHat](https://hardhat.org) but it uses python for writing test and deployements scripts instead of javascript.
    Here is a simple way to install brownie.
@@ -53,6 +60,7 @@ Please install or have installed the following:
    You can choose to use ethereum testnets like rinkeby, Kovan or any other evm compatible testnet.
    You'll also need some eth in the testnet. You can get it into your wallet by using a public faucet. 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
 ## How to Use
    After going throught the installation part you can start the app by running:
@@ -73,11 +81,14 @@ Please install or have installed the following:
         <li><b>Swap component:</b> It finds the best price possible for the user tokens from the supported exchanges and allow user to approve & excute the swap transaction </li>
         <li><b>Exchanges component:</b> For getting the token prices on the different exchanges</li>  
       </ul>   
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- Contact -->
+
 ## Contact
 If you have any question or problem running this project just contact me: aymenMir1001@gmail.com
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
