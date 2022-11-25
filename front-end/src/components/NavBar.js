@@ -10,17 +10,7 @@ function NavBar() {
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src={logo} width="100px" />
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
-                        <Nav activeKey={window.location.pathname}
-                            className="me-auto"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll>
-                        </Nav>
                         <Account />
-                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
