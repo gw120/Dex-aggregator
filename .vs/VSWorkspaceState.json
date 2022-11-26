@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\front-end",
+    "\\front-end\\src",
+    "\\front-end\\src\\components",
+    "\\front-end\\src\\utils",
     "\\interfaces",
     "\\scripts"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\front-end\\src\\components\\NavBar.js",
   "PreviewInSolutionExplorer": false
 }
