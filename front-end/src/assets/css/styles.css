@@ -101,6 +101,9 @@
         width: 100%;
     }
 
+    .header-box {
+        width: 100%;
+    }
     #window {
         width: 350px;
         margin-bottom: 35px;
