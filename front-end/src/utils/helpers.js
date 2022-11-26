@@ -10,6 +10,8 @@ import usdt from "./../assets/images/usdt.png";
 import uni from "./../assets/images/uni.jpg"
 
 import IRouter from "./../artifacts/interfaces/IUniswapV2Router02.json";
+import ISwapRouter from "./../artifacts/interfaces/ISwapRouter.json";
+import IQouter from "./../artifacts/interfaces/IQuoter.json";
 
 export const tokens = {
 
@@ -200,11 +202,16 @@ export const tokens = {
 
 export const exchanges = {
     "Ethereum Mainnet": {
-        "Dexes": [
+        "Ethereum Mainnet": [
             {
                 "name": "Uniswap",
                 "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
                 "router": IRouter
+            },
+            {
+                "name": "Uniswap V3",
+                "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+                "router": IQouter
             },
             {
                 "name": "Sushiswap",
@@ -217,13 +224,16 @@ export const exchanges = {
                 "router": IRouter
             }
         ],
-    },
-    "kovan": {
-        "Dexes": [
+        "kovan": [
             {
                 "name": "Uniswap",
                 "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
                 "router": IRouter
+            },
+            {
+                "name": "Uniswap V3",
+                "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+                "router": IQouter
             },
             {
                 "name": "Sushiswap",
@@ -236,13 +246,16 @@ export const exchanges = {
                 "router": IRouter
             }
         ],
-    },
-    "Polygon Mainnet": {
-        "Dexes": [
+        "Polygon Mainnet": [
             {
                 "name": "Sushiswap",
                 "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
                 "router": IRouter
+            },
+            {
+                "name": "Uniswap V3",
+                "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+                "router": IQouter
             },
             {
                 "name": "Quickswap",
@@ -260,9 +273,7 @@ export const exchanges = {
                 "router": IRouter
             }
         ],
-    },
-    "BSC": {
-        "Dexes": [
+        "BSC": [
             {
                 "name": "Sushiswap",
                 "address": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
@@ -283,9 +294,9 @@ export const exchanges = {
                 "address": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
                 "router": IRouter
             }
-        ],
-    }
+        ]
 }
+
 export const exchangesMap = {
     "Ethereum Mainnet": {
         0: {
@@ -293,10 +304,14 @@ export const exchangesMap = {
             "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
         },
         1: {
+            "name": "Uniswap V3",
+            "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        },
+        2: {
             "name": "SUSHISWAP",
             "address": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F"
         },
-        2: {
+        3: {
             "name": "SHIBASWAP",
             "address": "0x03f7724180AA6b939894B5Ca4314783B0b36b329"
         }
@@ -307,10 +322,14 @@ export const exchangesMap = {
             "address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
         },
         1: {
+            "name": "Uniswap V3",
+            "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        },
             "name": "SUSHISWAP",
             "address": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F"
         },
-        2: {
+    3: {
+
             "name": "SHIBASWAP",
             "address": "0x03f7724180AA6b939894B5Ca4314783B0b36b329"
         }
@@ -321,14 +340,18 @@ export const exchangesMap = {
             "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
         },
         1: {
+            "name": "Uniswap V3",
+            "address": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        },
+        2: {
             "name": "QUICKSWAP",
             "address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
         },
-        2: {
+        3: {
             "name": "JETSWAP",
             "address": "0x5C6EC38fb0e2609672BDf628B1fD605A523E5923"
         },
-        3: {
+
             "name": "APESWAP",
             "address": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
         }
