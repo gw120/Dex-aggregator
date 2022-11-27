@@ -47,7 +47,7 @@ Please install or have installed the following:
     ```
 2. Clone the repo:
    ```sh
-   git clone https://github.com/Aymen1001/Dex-aggregator.git
+   git clone https://https://github.com/gw120/Dex-aggregator.git
    cd Dex-aggregator
    ```
    

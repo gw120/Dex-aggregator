@@ -3,11 +3,12 @@
     "",
     "\\front-end",
     "\\front-end\\src",
+    "\\front-end\\src\\assets",
+    "\\front-end\\src\\assets\\css",
     "\\front-end\\src\\components",
     "\\front-end\\src\\utils",
-    "\\interfaces",
-    "\\scripts"
+    "\\interfaces"
   ],
-  "SelectedNode": "\\front-end\\src\\components\\NavBar.js",
+  "SelectedNode": "\\front-end\\src\\assets\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
